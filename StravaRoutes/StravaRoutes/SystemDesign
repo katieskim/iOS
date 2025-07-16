@@ -1,0 +1,35 @@
+
+Hello.
+
+RADIO = Requirements, Architecture, Data model, Interface (API), Optimization and Deep Dive
+
+Requirements:
+- Display all the routes returned by RoutesJsonLoader
+    - Every route should have name, distance, elevation, map
+
+Additional customization:
+-Display distance/elevation in meters or miles. Is the data in meters? I am assuming
+-Display the type of activity
+
+Questions to ask:
+- Is the distance/elevation in meters?
+- Should I limit the number of routes shown or do infinite scrolling? Pagination?
+- Ability to post any new routes?
+
+Non-functional requirements:
+- Should I persist the data that I load on the phone? Or should I just do a fetch every single time we build the app.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Architecture:
+
+Client:
+RouteUI
+    -Model: Route
+    -View: RoutesFeedView which will display a list of RouteView
+    -Controller: Fetch the users using the JSONLoader, and load it into the model
+
+Server:
+    -Provides the JSON data for routes
+

@@ -1,0 +1,82 @@
+[
+    {
+        "id": 2735025266296229722,
+        "map_url": "https://d3o5xota0a1fcr.cloudfront.net/maps/RFWF5B76SMZYKXF2KX7POI4EHIA4BSHVBC4ZHHIBWG7HT77NA7YYCZVQUWPR2L7KYX357UJULG3JIARM2U6MDNEENE4BTUNQROHA====",
+        "name": "Marin Sunday Run",
+        "distance": 14235.319099149601,
+	    "elevation_gain": 499.08645046007325,
+        "type": 2
+    },
+    {
+        "id": 2733554792406263160,
+        "map_url": "https://d3o5xota0a1fcr.cloudfront.net/maps/RYQABFL2SU3ZAIBZBHBO2TLT5XQECZ4VAPP4D35AXIFUUKBDQ4TJJ7EV56TUPNKD4JAE7N3L4Q3UUZSEYUDWOGFN2LYXKHWAQJVA====",
+        "name": "Back to running",
+        "distance": 10014.043055993536,
+	    "elevation_gain": 244.1720733353584,
+        "type": 2
+    },
+    {
+        "id": 2724749682320430048,
+        "map_url": "https://d3o5xota0a1fcr.cloudfront.net/maps/OBWYN722VC6LE6OZCQGUQLH2ONJWNHNJ2YYMA3EXS67US3IGCRI55KD6YXR5KMUSYLIJDDLFMNFMOQTPYTBHSQPMV4U4QZY2ASKA====",
+        "name": "South Ride",
+        "distance": 104181.52261118851,
+	    "elevation_gain": 1331.6520942380403,
+        "type": 1
+    },
+    {
+        "id": 2720000900986619222,
+        "map_url": "https://d3o5xota0a1fcr.cloudfront.net/maps/KCTXWXGCTYBSYUYQZC2XL4LMK746EHVGCOQZRGUZOTTIN3SO3KHLHVO67KUZOBBIFVQIJCAWNIH3NJMIMAK5OZQFOMMGHJC4LI6A====",
+        "name": "Next Weekend",
+        "distance": 126018.62810050239,
+	    "elevation_gain": 1644.7550933957075,
+        "type": 1
+    },
+    {
+        "id": 2712145758193862214,
+        "map_url": "https://d3o5xota0a1fcr.cloudfront.net/maps/A3Z63UN6DAD2HI5ZOQSKOFK5RPC6HBJ52OINNSYTH6ADLZPCIMSTFDQ375LI2EMHGENYODH3MZOUSK5REUGKQDXG7SNVHPURXUZA====",
+        "name": "Alpine Dam",
+        "distance": 89569.83180555365,
+	    "elevation_gain": 1437.849196995868,
+        "type": 1
+    },
+    {
+        "id": 2709999430658438684,
+        "map_url": "https://d3o5xota0a1fcr.cloudfront.net/maps/PFI4D544CORNYWIMVHPX4NEEUBK2LG26R6YSU2YDX6VVFFMFZVARX4RPLCRARFNAPESTTL2ENFURCHFT2434MDIW6ICUUVQKQEBQ====",
+        "name": "SCA Trail-Bobcat Trail-Julian Trail",
+        "distance": 10480.35921297463,
+	    "elevation_gain": 327.4861272460426,
+        "type": 2
+    },
+    {
+        "id": 27453878,
+        "map_url": "https://d3o5xota0a1fcr.cloudfront.net/maps/I3LQT3BLNZPKSSTGWYZTAE4HSUFWVNEBP5YCIM3YHIWGCC7A5N6TQRUHN34HA2AVCH5V55PYIBLNVRBAKLIH3RYLHV5A====",
+        "name": "Tuesday Run",
+        "distance": 7358.225357548679,
+	    "elevation_gain": 196.37741715836808,
+        "type": 2
+    },
+    {
+        "id": 27255170,
+        "map_url": "https://d3o5xota0a1fcr.cloudfront.net/maps/6EXLPR6XY3YSHYHO2YQHD7I4CFTCK47I4VRVBGDHRCF6MBWJIQY2L5MGGWTHOGA6Q7CIVALRUK3VFAE43VXYDVEPNSGA====",
+        "name": "Saturday Morning",
+        "distance": 16998.415394986303,
+	    "elevation_gain": 283.17488889259135,
+        "type": 2
+    },
+    {
+        "id": 26157628,
+        "map_url": "https://d3o5xota0a1fcr.cloudfront.net/maps/MIUAYO3I7TPLFVKJVPH4JBXBBSLLY4DYGBKLIP53MOX626BAVX3FADJO46D77TL4SEMHOBZWDZQO7GSP6TTVJAGTA3KA====",
+        "name": "Paradise Loop",
+        "distance": 66687.67637553859,
+        "elevation_gain": 595.8844825350204,
+        "type": 1
+    },
+    {
+        "id": 24924302,
+        "map_url": "https://d3o5xota0a1fcr.cloudfront.net/maps/IMHY4VQ5ZF4ZCYLL3ORIMFUPCIN65ODWAULE4PDRAQ3JEMHC3E7UOXHEVIVPMTM2X3ZZ2JPD33V6FNWX4EGSDIWSWLGA====",
+        "name": "Sutro Run",
+        "distance": 10760.151322283855,
+        "elevation_gain": 330.01613294473566,
+        "type": 2
+    }
+]
