@@ -1,0 +1,37 @@
+// Requirements, Architecture, Data models, Interface, Optimization
+
+Functional requirements:
+-Given a networking service that will fetch data about multiple routes, display in a list all the routes
+-Each route view must show the name, distance (in miles), elevation (in feet), map. (Optional: activity type)
+
+-Filtering of the activities (by activity type)
+-Detail screen of the activity
+
+Nonfunctional requirements:
+-Persist the data? in anyway? Offline support? I would use SwiftData to store the fetched results into CoreData, and then check the stored SwiftData first before I call a fetch function
+-Pagination? Add pagination to the ViewModel
+-Data protection X
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Architecture
+
+UIClient:
+-Models: Route
+-ViewModel: Uses the networking service, loads routes, handles error
+-Views:
+    -RouteView (for a single route),
+    - ListRouteView (for all routes), loading and error states
+-Networking service: Given RoutesJSONLoader
+
+
+API Design:
+
+-ViewModel:
+    -fetchRoutes which will call the networking service
+
+-ContentView:
+    -owns the viewModel, for all the routes, renders the ListRouteView
+
+-ListRouteView
+    -Displays a list of individual RouteView
