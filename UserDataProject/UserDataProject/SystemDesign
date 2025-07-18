@@ -1,0 +1,34 @@
+
+RADIO = Requirements, Architecture, Data models, Interface(API), Optimization
+
+Requirements:
+-Display a list of users with a little information about them (name, active, age)
+-Create a detail screen when a user is tapped
+    - Shows name, age, company, email, address, about, and a list of their friends.
+
+Architecture:
+-Models: User and Friend models
+-ViewModel: Owns the networkingService and stores the information
+-View: List to displays users, screen for detail of a user
+    -Navigation between the list and detail views
+    -Loading and error states
+    -Detail screen:
+        -Name, age, isActive, company, email, about, friends
+-Networking: Service that calls the API asynchronously, and has loading states and error handling.
+
+
+struct User: Codable, Identifiable {
+    let id: String
+    let isActive: Bool
+    let name: String
+    let age: Int
+    let company: String
+    let email: String
+    let address: String
+    let about: String
+    let friends: [Friend]
+}
+
+
+
+

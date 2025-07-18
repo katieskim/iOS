@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Bookworm
+//  SwiftDataProject
 //
 //  Created by Katie Kim on 7/16/25.
 //
